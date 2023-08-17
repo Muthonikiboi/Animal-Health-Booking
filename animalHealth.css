@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.heading{
+    position: relative;
+    height: 95vh;
+    background-image: linear-gradient(to top,rgb(35, 1, 49,1), rgba(191, 0, 255, 0.6), rgba(214, 72, 215, 0.6)),url(https://plus.unsplash.com/premium_photo-1664298580563-368fb181926f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGV0JTIwaG9zcGl0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: top;
+
+    clip-path: polygon(0 0,50% 30%,100% 0,100% 70%,50% 100%,0 70%);
+}
+
+.logo-division{
+     position:absolute;
+     top: 10%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     z-index: 2;
+}
+
+.logo{
+    height: 150px;
+}
+
